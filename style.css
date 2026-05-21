@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:url('https://i2.wp.com/files.all-free-download.com/downloadfiles/wallpapers/1920_1080/peaceful_lake_wallpaper_landscape_nature_1208.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.wrapper{
+    position:relative;
+    width:400px;
+    height:500px;
+    background:rgba(255,255,255,0.1);
+    border:2px solid rgba(255,255,255,0.2);
+    border-radius:20px;
+    backdrop-filter:blur(20px);
+    overflow:hidden;
+}
+
+.form-box{
+    position:absolute;
+    width:100%;
+    padding:40px;
+    transition:.5s ease;
+}
+
+.form-box.login{
+    transform:translateX(0);
+}
+
+.wrapper.active .form-box.login{
+    transform:translateX(-400px);
+}
+
+.form-box.register{
+    transform:translateX(400px);
+}
+
+.wrapper.active .form-box.register{
+    transform:translateX(0);
+}
+
+h2{
+    font-size:2em;
+    color:#fff;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+input{
+    width:100%;
+    height:45px;
+    margin:10px 0;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    padding:0 15px;
+}
+
+button{
+    width:100%;
+    height:45px;
+    border:none;
+    border-radius:10px;
+    background:#162938;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+p{
+    color:#fff;
+    text-align:center;
+    margin-top:20px;
+}
+
+a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+#welcomeContainer{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100vh;
+
+    display:none;
+
+    justify-content:center;
+    align-items:center;
+
+    z-index:999;
+
+    font-family:Arial, sans-serif;
+}
+.welcome-card h1{
+
+    font-size:38px;
+
+    margin-bottom:15px;
+
+    color:#ffffff;
+
+    text-shadow:
+        0 0 10px rgba(255,255,255,0.7),
+        0 0 20px rgba(0,212,255,0.5);
+
+    letter-spacing:1px;
+}
