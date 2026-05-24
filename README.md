@@ -5,18 +5,6 @@ This project focuses on creating a clean authentication user interface with resp
 
 ---
 
-## 🎨 Project Banner Idea
-
-> Minimal dark-theme authentication page with glowing login card, modern UI elements, and responsive mobile-friendly design.
-
-Suggested banner text:
-```text
-Modern Login & Signup UI
-Responsive • Clean • Interactive
-```
-
----
-
 # 🚀 Project Overview
 
 This project is a beginner-friendly authentication UI application designed to practice frontend web development concepts like:
